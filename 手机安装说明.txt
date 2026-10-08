@@ -1,0 +1,19 @@
+IELTS Flow 手机版（PWA）
+
+这是一个可安装、离线可用的网页应用包，不需要登录，也不会上传学习数据。
+
+最快安装方式：
+1. 将本文件夹中的 4 个文件上传到任意 HTTPS 静态网站空间（例如 GitHub Pages、Netlify 或 Vercel）。
+2. 在 Android 手机上的 Chrome 打开 ielts-coach.html。
+3. Chrome 菜单中选择“安装应用”或“添加到主屏幕”。
+4. 安装后可从手机桌面启动，首次打开之后可离线使用。
+
+iPhone：在 Safari 打开后，点“分享”→“添加到主屏幕”。
+
+若仅把 ielts-coach.html 传到手机并直接打开，学习功能仍可使用，但浏览器可能不会显示“安装应用”；这是手机浏览器对离线本地文件的限制。
+
+文件：
+- ielts-coach.html：学习应用主体
+- manifest.webmanifest：安装信息
+- service-worker.js：离线缓存
+- icon.svg：桌面图标

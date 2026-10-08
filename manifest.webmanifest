@@ -1,0 +1,12 @@
+{
+  "name": "IELTS Flow｜雅思学习教练",
+  "short_name": "IELTS Flow",
+  "description": "离线可用的雅思词汇、口语、听读写训练教练",
+  "lang": "zh-CN",
+  "start_url": "./ielts-coach.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f8f5",
+  "theme_color": "#12314a",
+  "icons": [{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
